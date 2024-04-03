@@ -1,3 +1,5 @@
+
+//Menu responsivo
 $(document).ready(function(){
    $('#mobile_btn').on('click',function (){
         $('#mobile_menu').toggleClass('active');
@@ -5,6 +7,7 @@ $(document).ready(function(){
 
    }); 
 
+   //Secção ativa do navbar
    const sections= $('section');
    const navItems= $('.navitem');
 
@@ -35,12 +38,14 @@ $(document).ready(function(){
       $(navItems[activeSectionIndex]).addClass('active');
    });
 
+   //Animações
+
    ScrollReveal().reveal('#cta',{
       origin:'left',duration:1000,
       distance:'20%'
    });
 
-   ScrollReveal().reveal('.dish',{
+   ScrollReveal().reveal('#tutorial',{
       origin:'bottom',duration:1000,
       distance:'20%'
    });
