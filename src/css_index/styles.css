@@ -1,6 +1,6 @@
 @import url('header.css');
 @import url('home.css');
-@import url('about.css');
+@import url('tutorial.css');
 @import url('testimonials.css');
 @import url('footer.css');
 
@@ -29,7 +29,7 @@ body{
 }
 
 section{
-    padding: 28px 8%;
+    padding: 24px 8%;
 }
 .btn-default{
     border: none;
