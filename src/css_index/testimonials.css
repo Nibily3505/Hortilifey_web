@@ -6,11 +6,6 @@
     gap: 48px;
 }
 
-#testimonials-chef{
-    width: 350px;
-    height: auto;
-}
-
 #testimonials .section-subtitle{
     font-size: 3rem;
 }
@@ -60,9 +55,7 @@
     font-size: 2.5rem;
 }
 
-#testimonials-chef{
-    display: none;
-}
+
 
 #testimonials-content{
     width: 70%;

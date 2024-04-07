@@ -1,4 +1,4 @@
-#tutorial{
+#tutorial {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,95 +6,61 @@
     min-height: 100vh;
 }
 
-.content-tutorial{
+.content-tutorial {
     display: flex;
     justify-content: center;
     border-radius: 40px;
-    padding: 120px;
+    padding: 20px;
 }
 
-
-.section-text{
+.section-text {
     color: #000;
     font-size: 24px;
     font-weight: 500;
-    width: 500px;
-    height: auto;
+    width: 100%;
+    max-width: 500px; /* Adjusted max-width */
     margin-top: 40px;
     margin-bottom: auto;
 }
 
 .video_tutorial {
     margin-left: 50px;
-    padding-top: 0px;
-
 }
 
-    
-    
-    .section-text{
-        color: #000;
-        font-size: 24px;
-        font-weight: 500;
-        width: 500px;
-        height: auto;
-        margin-top: 40px;
-        margin-bottom: auto;
-    }
-    
-    
-    @media screen and (max-width:450px) {
-        
-        .content-tutorial{
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        .section-text{
-            color: #000;
-            font-size: 20px;
-            font-weight: 500;
-            width: fit-content;
-            height: auto;
-            align-items: center;
-            margin-top: 40px;
-            margin-bottom:24px;
-        }
-    
-        iframe{
-            width:max-content;
-        }
-    }
-    
-    
-    
-    
+iframe {
+    width: 800px;
+    height: 500px;;
+}
 
-    
-    @media screen and (max-width:800px) {
-        .content-tutorial{
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        
-        .section-text{
-            color: #000;
-            font-size: 24px;
-            font-weight: 500;
-            width: 600px;;
-            height: auto;
-            align-items: center;
-            margin-top: 40px;
-            margin-bottom:24px;
-        }
-        
-        iframe{
-            width: 600px;
-        }
+@media screen and (max-width: 1700px) {
+    .content-tutorial {
+        flex-direction: column; 
     }
-    
+
+    .section-text {
+        width: 90%; 
+        margin-top: 20px; 
+        margin-bottom: 20px; 
+        text-align: center; 
+    }
+
+    .video_tutorial {
+        margin-left: 0; /* Removed left margin for smaller screens */
+    }
+
+    iframe {
+        max-width: 600px; 
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-text {
+        font-size: 20px;
+        max-width: 300px; 
+    }
+
+    iframe {
+        max-width: 300px; 
+    }
+}
