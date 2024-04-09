@@ -50,6 +50,13 @@ section{
     background-color: var( --color-hover);
 }
 
+.btn-invisible{
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: transparent  ;
+}
+
 .social-media-button{
     display: flex;
     gap: 18px;

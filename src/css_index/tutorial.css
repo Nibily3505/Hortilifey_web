@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 700px;
 }
 
 .content-tutorial {
@@ -38,7 +38,7 @@ iframe {
     }
 
     .section-text {
-        width: 90%; 
+        width: 80%; 
         margin-top: 20px; 
         margin-bottom: 20px; 
         text-align: center; 
@@ -49,8 +49,8 @@ iframe {
     }
 
     iframe {
-        max-width: 600px; 
-        height: 400px;
+        max-width: 500px; 
+        height: 300px;
     }
 }
 
