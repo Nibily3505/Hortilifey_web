@@ -38,7 +38,7 @@ $(document).ready(function(){
       $(navItems[activeSectionIndex]).addClass('active');
    });
 
-   //Animações
+   //Animações dos items
 
    ScrollReveal().reveal('#cta',{
       origin:'left',duration:1000,
@@ -55,6 +55,16 @@ $(document).ready(function(){
       distance:'20%'
    })
 
+
+   ScrollReveal().reveal('#text',{
+      origin:'bottom',duration:1000,
+      distance:'20%'
+   })
+
+   ScrollReveal().reveal('.about-text',{
+      origin:'bottom',duration:1000,
+      distance:'20%'
+   })
 });
 
 
