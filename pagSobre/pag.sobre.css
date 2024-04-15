@@ -42,39 +42,22 @@ footer{
     margin-bottom: auto;
 }
 
-@media screen and (max-width: 00px) {
+
+
+
+@media screen and (max-width: 450px) {
     .content {
-        padding: 0 10px; /* Adjusted padding */
+        padding: 0 5px; /* Adjusted padding */
+        width: auto;
     }
 
     .about-text {
         font-size: 20px; /* Adjusted font size */
+        width: fit-content;
     }
 
     .about-title {
-        margin: 30px auto; /* Adjusted margin */
-        font-size: 26px; /* Adjusted font size */
-    }
-
-    .about-text p {
-        max-width: 600px; /* Adjusted max-width */
-    }
-
-
-}
-
-
-@media screen and (max-width: 00px) {
-    .content {
-        padding: 0 10px; /* Adjusted padding */
-    }
-
-    .about-text {
-        font-size: 20px; /* Adjusted font size */
-    }
-
-    .about-title {
-        margin: 30px auto; /* Adjusted margin */
+        margin: 10px ; /* Adjusted margin */
         font-size: 26px; /* Adjusted font size */
     }
 
